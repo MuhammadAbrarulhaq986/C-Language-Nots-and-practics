@@ -3,8 +3,8 @@
 #include<stdlib.h>
 
 int main(){	
-system("cls");
-printf("My First Program");
+    system("cls");
+    printf("My First Program");
 
 return 0;
 }
