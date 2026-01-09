@@ -4,7 +4,7 @@
 
 int main()
 {
-    /*
+
     char a;
     int b;
     float c;
@@ -23,21 +23,19 @@ int main()
     scanf("%lf", &d);
     printf("\n%c %d %f %lf", a, b, c, d);
 
-    */
+    ///*
+    char a;
+    int b;
+    float c;
+    double d;
 
-    /*
-     char a;
-     int b;
-     float c;
-     double d;
+    printf("\nEnter Char Integer Float Double\n:");
+    scanf("%c %d %f %lf", &a, &b, &c, &d);
+    printf("\n%c %d %f %lf", a, b, c, d);
 
-     printf("\nEnter Char Integer Float Double\n:");
-     scanf("%c %d %f %lf", &a, &b, &c, &d);
-     printf("\n%c %d %f %lf", a, b, c, d);
- */
     system("cls");
     printf("\nWhat is your section:");
-    getche();
+    getchar();
 
     return 0;
 }
