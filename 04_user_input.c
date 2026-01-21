@@ -23,18 +23,18 @@ int main()
     printf("\n%c %d %f %lf", a, b, c, d);
 
     ///*
-    char a;
-    int b;
-    float c;
-    double d;
+    // char a;
+    // int b;
+    // float c;
+    // double e;
 
     printf("\nEnter Char Integer Float Double\n:");
-    scanf("%c %d %f %lf", &a, &b, &c, &d);
-    printf("\n%c %d %f %lf", a, b, c, d);
+    scanf("%c %d %f %lf", &a, &b, &c, &e);
+    printf("\n%c %d %f %lf", a, b, c, e);
 
-    system("cls");
+    // system("cls");
     printf("\nWhat is your section:");
-    getchar();
+    // getchar();
 
     return 0;
 }
